@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2bc20b9-e5bc-43fa-999c-18102e330888">
+  <name>Телеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ca57a61c-0eb8-49b7-9777-f257d42a9c3f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0a8213c1-5399-4452-9aae-0a777f6e4831"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="893ca00a-410f-4831-a973-739ba59d5d7d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="679c1481-46b3-4aff-a02f-14603e74a448"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f6b2a714-5e42-4430-8e6c-418b2191a807"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="407b421b-dc18-44fe-845b-c34dbb17f496"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="260a2b42-815b-4255-ae2f-4a32539a3f31"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="45551287-ed53-4462-a8f3-6e7ff2456bdb">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.Запуск</subsystems>
+  <commonModules>CommonModule.ОбменСообщениямиСервер</commonModules>
+  <commonModules>CommonModule.ПодключениеСервер</commonModules>
+  <commonModules>CommonModule.ОбработкаКоллекцийСервер</commonModules>
+  <commonModules>CommonModule.ЧтениеСообщенийСервер</commonModules>
+  <commonModules>CommonModule.АдресКомандыСервер</commonModules>
+  <commonModules>CommonModule.ФоновоеЗадание</commonModules>
+  <scheduledJobs>ScheduledJob.ОжиданиеСообщение</scheduledJobs>
+  <commonCommands>CommonCommand.ПроверитьСообщения</commonCommands>
+  <constants>Constant.Токен</constants>
+  <constants>Constant.ИмяБота</constants>
+  <constants>Constant.АдресСервера</constants>
+  <commonForms>CommonForm.Форма</commonForms>
+  <informationRegisters>InformationRegister.КомандыБотаБэкенд</informationRegisters>
+  <informationRegisters>InformationRegister.ОтветыПользователям</informationRegisters>
+</mdclass:Configuration>

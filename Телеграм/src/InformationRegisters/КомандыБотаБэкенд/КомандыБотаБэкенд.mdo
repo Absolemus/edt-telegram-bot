@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efe7b008-3162-4a35-8620-c74d3550cacb">
+  <producedTypes>
+    <selectionType typeId="795d36dc-6c2b-40db-b556-7c703bd46f6b" valueTypeId="b30fefa7-382e-4171-96c2-e36d7fce6ce5"/>
+    <listType typeId="ca35d4aa-8519-4f1d-bc7f-bee5abd7e97c" valueTypeId="6b331465-33af-4c50-b63e-246729c0a6ba"/>
+    <managerType typeId="98f26751-a493-488e-b6d1-b71bfbf72105" valueTypeId="b9cbe209-0a63-4ac0-977c-a824ba35a78a"/>
+    <recordSetType typeId="994904a8-ce03-4252-8bbe-360b0522d239" valueTypeId="92b610d7-7784-44fc-baa9-cbc6e3a2f773"/>
+    <recordKeyType typeId="2f3e8a7a-3f60-44c5-b85a-d3f20387a76d" valueTypeId="5c43ee62-7d94-4a0a-96cd-c3e1c80faf78"/>
+    <recordType typeId="ae4942e4-9cb8-4a9b-abc9-2d870cc66356" valueTypeId="32c9978d-8077-4ab5-aaab-3a77c26c9009"/>
+    <recordManagerType typeId="e0e83fb6-a72a-4987-9a2b-3b754b6631bb" valueTypeId="6a763e65-9398-4eef-95e1-15c8b8fd4b06"/>
+  </producedTypes>
+  <name>КомандыБотаБэкенд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды бота бэкенд</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1a7ebb73-9cc0-4ac2-bcc8-cb52eb6b8cc6">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="6187d7fb-9dc9-4668-b2a2-25efb97d4f0a">
+    <name>Название</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

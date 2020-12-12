@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42fe7132-6f6b-4fbd-b650-4dd5b92b6655">
+  <producedTypes>
+    <selectionType typeId="85901dc8-994c-4119-813f-3a8bbb7f8538" valueTypeId="1cbaada0-13ce-45c2-88d4-f32b75eecca2"/>
+    <listType typeId="7e3d2487-725d-438b-86c0-eebbae0dca1b" valueTypeId="fdba20ae-c519-4cc6-b7fc-f3bb8d8d74fb"/>
+    <managerType typeId="e1603352-e58b-448b-9dd9-50426c4b325e" valueTypeId="f28a2ab2-00e1-46a0-a477-24db25a421f8"/>
+    <recordSetType typeId="f8ed68d1-1237-4d8f-b868-4eef2e5553fc" valueTypeId="1456cfda-fbdd-46bb-b22b-23457d8cb40e"/>
+    <recordKeyType typeId="71d1141d-9e7f-4f12-b38d-32fb30a5e3f2" valueTypeId="9d99788c-cd11-4865-818a-aa46b567d0b6"/>
+    <recordType typeId="307c5851-4cdc-4abe-8795-fd07cce5b1f7" valueTypeId="9aaccb6a-2027-45fb-b480-0c5524cb9c52"/>
+    <recordManagerType typeId="fe582475-452d-46b4-8f5f-7013752cf9cf" valueTypeId="1db115a3-9e20-44f1-bc5e-906938df4450"/>
+  </producedTypes>
+  <name>ОтветыПользователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответы пользователям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f2f61ce5-893c-42a2-a19b-af0ecccc5b18">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="ec46016a-36cc-4405-b16c-1e8a71f9ae48">
+    <name>ИДОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДОбновления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7112a352-0899-4ff0-9b78-2f4546382879">
+    <name>Собеседник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собеседник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="033bb664-887c-43cc-a602-ddeb9c6c84e9">
+    <name>ИДСобеседника</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДСобеседника</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="464380e1-1798-45e6-b0ed-fd1753e3e521">
+    <name>ЛогинСобеседника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин собеседника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23aeb39e-8762-400c-8795-e83ef1953c14">
+  <producedTypes>
+    <managerType typeId="1104e908-b067-4b14-b066-8463002aa3c9" valueTypeId="227bddf3-3025-47e6-aa77-2e9407840614"/>
+    <valueManagerType typeId="ee873f35-a804-4338-8f94-87e40560ec35" valueTypeId="c2936b40-9849-4a2c-801f-b7f10118e905"/>
+    <valueKeyType typeId="05213e57-39c2-44e7-a62f-adfad87b5f3d" valueTypeId="887acb7b-3097-4702-abca-de24a477ce64"/>
+  </producedTypes>
+  <name>Токен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
