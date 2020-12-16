@@ -42,7 +42,6 @@
   <commonModules>CommonModule.ЧтениеСообщенийСервер</commonModules>
   <commonModules>CommonModule.АдресКомандыСервер</commonModules>
   <commonModules>CommonModule.ФоновоеЗадание</commonModules>
-  <scheduledJobs>ScheduledJob.ОжиданиеСообщение</scheduledJobs>
   <commonCommands>CommonCommand.ПроверитьСообщения</commonCommands>
   <constants>Constant.Токен</constants>
   <constants>Constant.ИмяБота</constants>
